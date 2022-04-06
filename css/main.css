@@ -19,16 +19,26 @@ h1, h2 {
   color: #623b0c;
 }
 
+h1 {
+  margin-left: .2em;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 img {
   width: 100%;
   display: block;
 }
 
 ol {
+  padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin: .5em;
+  margin: 0;
   list-style: none;
   border-radius: 8px;
 }
@@ -48,4 +58,5 @@ a {
   text-decoration: none;
   border-radius: 8px;
   padding: .6em;
+  justify-content: space-between;
 }
