@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin-left: 0;
+  margin: 0;
   padding: .75em;
   background-color: #f5f2f0;
 }
@@ -17,4 +17,35 @@ body {
 h1, h2 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: .5em;
+  list-style: none;
+  border-radius: 8px;
+}
+
+li {
+  display: flex;
+  background-color: #ede3db;
+  flex-direction: column;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+  padding: 1em;
+}
+
+a {
+  color: #fff;
+  background-color: #623b0c;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .6em;
 }
