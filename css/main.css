@@ -20,7 +20,8 @@ h1, h2 {
 }
 
 h1 {
-  margin: 1.5rem .2em;
+  padding: .75em .2em;
+  margin: 0;
 }
 
 h2 {
